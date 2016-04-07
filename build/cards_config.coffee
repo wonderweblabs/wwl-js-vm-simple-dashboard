@@ -32,7 +32,7 @@ module.exports = (moduleConfig) ->
       x:      0
       y:      2
       width:  3
-      height: 3
+      height: 2
     animation:
       type:     'fade'
       duration: 1

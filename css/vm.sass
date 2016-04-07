@@ -1,0 +1,44 @@
+$wwl-js-vm-simple-dashboard-cards-gutter: 8px
+
+.wwl-js-vm-simple-dashboard *
+  box-sizing: border-box
+
+.wwl-js-vm-simple-dashboard,
+.wwl-js-vm-simple-dashboard > .cards-container
+  background-color: #666
+  bottom: 0
+  box-sizing: border-box
+  display: block
+  left: 0
+  overflow: hidden
+  position: absolute
+  right: 0
+  top: 0
+
+.wwl-js-vm-simple-dashboard
+
+  > .cards-container
+    bottom: $wwl-js-vm-simple-dashboard-cards-gutter * 2
+    left: $wwl-js-vm-simple-dashboard-cards-gutter * 2
+    right: $wwl-js-vm-simple-dashboard-cards-gutter * 2
+    top: $wwl-js-vm-simple-dashboard-cards-gutter * 2
+
+  *
+    box-sizing: border-box
+
+.wwl-js-vm-simple-dashboard-card
+  color: #fff
+  display: block
+  position: absolute
+
+.wwl-js-vm-simple-dashboard-card-inside
+  background-color: #333
+  border-radius: 3px
+  bottom: $wwl-js-vm-simple-dashboard-cards-gutter
+  display: block
+  left: $wwl-js-vm-simple-dashboard-cards-gutter
+  position: absolute
+  right: $wwl-js-vm-simple-dashboard-cards-gutter
+  top: $wwl-js-vm-simple-dashboard-cards-gutter
+
+  > .vm-container

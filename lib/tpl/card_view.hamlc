@@ -1,3 +1,2 @@
-%h2 Card
-
-.vm-container
+.wwl-js-vm-simple-dashboard-card-inside
+  .vm-container
