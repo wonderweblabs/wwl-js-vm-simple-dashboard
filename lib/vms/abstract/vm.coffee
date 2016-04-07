@@ -1,0 +1,1 @@
+module.exports = class AbstractCardVm extends require('wwl-js-vm').VM

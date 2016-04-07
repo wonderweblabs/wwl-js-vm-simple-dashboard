@@ -1,0 +1,9 @@
+{
+  "name": "wwl-js-vm-simple-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bourbon": ">=4.2.6",
+    "neat": ">=1.7.2"
+  }
+}
